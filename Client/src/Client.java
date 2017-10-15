@@ -66,7 +66,7 @@ public class Client {
     public static void main(String[] args) {
         Client client = new Client();
         try {
-            client.startConnection(InetAddress.getLocalHost().getHostName(), 4444);
+            client.startConnection(InetAddress.getLocalHost().getHostName(), 16399);
         } catch (IOException e) {
             e.printStackTrace();
         }
